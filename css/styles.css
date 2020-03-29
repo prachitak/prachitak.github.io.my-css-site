@@ -1,9 +1,13 @@
 body{
   text-align: center;
+  margin: 0;
 }
-
+h1{
+  margin-top: 0;
+}
 .top-container {
   background-color: powderblue;
+  padding-top: 100px;
 }
 .middle-container{
   background-color: red;
@@ -18,10 +22,13 @@ body{
 .pro{
   text-decoration: underline;
 }
-
-/* body {
-  margin: 0;
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
 }
-h1 {
-  margin-top: 0;
-} */
+.bottom-cloud{
+  position:absolute;
+  bottom: 400px;
+  left: 300px;
+}
