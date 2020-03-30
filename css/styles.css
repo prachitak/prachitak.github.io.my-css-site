@@ -75,7 +75,7 @@ hr{
 }
 .bottom-cloud{
   position: absolute;
-  top: 450px;
+  bottom: 100px;
   left: 300px;
 }
 .my-photo{
@@ -108,11 +108,11 @@ iframe{
   line-height: 2;
 }
 .button {
-	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
-	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-	background-color:#79bbff;
+	box-shadow:inset 0px 1px 0px 0px #baf3f5;
+	background:linear-gradient(to bottom, #7aebff 5%, #39cfe3 100%);
+	background-color:#7aebff;
 	border-radius:6px;
-	border:1px solid #84bbf3;
+	border:1px solid #85dcf2;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -121,20 +121,18 @@ iframe{
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #528ecc;
+	text-shadow:0px 1px 0px #54cccc;
   margin: 30px auto 70px auto;
 }
 .button:hover {
-	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
-	background-color:#378de5;
+	background:linear-gradient(to bottom, #39cfe3 5%, #7aebff 100%);
+	background-color:#39cfe3;
 }
 .button:active {
 	position:relative;
 	top:1px;
 }
-
-   
-   
+    
 /* To undo wrap
 .skill-description1{
   clear: left;
