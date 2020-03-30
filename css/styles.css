@@ -2,6 +2,7 @@ body{
   text-align: center;
   margin: 0;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 h1{
   margin-top: 50px;
@@ -23,15 +24,46 @@ h3{
 }
 a{
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  font-size: 0.75rem;
+  color: #EAF6F6;
+  padding: 20px 0;
+}
+.profile{
+  width: 30%;
+  margin: auto;
+  color: #40514E;
+}
+hr{
+  color: #d7d1c9;
+  border-style: dotted none none none;
+  height: 10px;
+  width: 5%;
+  border-width: 5px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .top-container {
-  background-color: #cff1ef;
+  background-color: #EAF6F6;
   padding-top: 100px;
   line-height: 2;
 }
 .middle-container{
+  margin-top: 50px;
 }
 .bottom-container{
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  line-height: 2;
+  padding: 20px;
 }
 .pro{
   text-decoration: underline;
@@ -70,6 +102,39 @@ iframe{
   text-align: left;
   line-height: 2;
 }
+.contact-me{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+.button {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+  margin: 30px auto 70px auto;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+   
+   
 /* To undo wrap
 .skill-description1{
   clear: left;
