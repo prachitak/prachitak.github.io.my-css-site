@@ -9,17 +9,25 @@ h1{
   /* 1em = 100% = 16px*/ /*5.625em = 562.5% = 90px*/
   /*rem = root em. It ignores adding the font size from parent element.*/
   font-size: 5.625rem;
+  color: #66BFBF;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
 }
 .top-container {
-  background-color: powderblue;
+  background-color: #cff1ef;
   padding-top: 100px;
+  line-height: 2;
 }
 .middle-container{
 }
@@ -41,6 +49,32 @@ h3{
 .my-photo{
   border-radius: 100%;
 }
+.moving-image{
+  width: 25%;
+  float: right;
+}
 .developer{
   border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
+iframe{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+/* To undo wrap
+.skill-description1{
+  clear: left;
+}
+.skill-description2{
+  clear: right;
+}
+*/
