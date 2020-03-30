@@ -75,7 +75,7 @@ hr{
 }
 .bottom-cloud{
   position: absolute;
-  bottom: 100px;
+  top: 550px;
   left: 300px;
 }
 .my-photo{
